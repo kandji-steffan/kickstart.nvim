@@ -38,6 +38,6 @@ return {
       -- Also the user event "TransparentClear" will be triggered
       on_clear = function() end,
     }
-    require('transparent').clear_prefix 'lualine'
+    -- require('transparent').clear_prefix 'lualine'
   end,
 }
